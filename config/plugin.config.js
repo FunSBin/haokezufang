@@ -11,7 +11,7 @@ export default config => {
 
   config.plugin('merge-less').use(MergeLessPlugin, [
     {
-      stylesDir,
+      AstylesDir,
       outFile,
     },
   ]);
